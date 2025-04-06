@@ -1,0 +1,65 @@
+########################################
+#  Sui / Move build & runtime outputs  #
+########################################
+# Move compiler outputs
+/build/
+/storage/
+
+# Sui client + validator local state
+.sui/                 # default CLI state dir
+*.sui.yaml            # alternative config file names
+*.sui.json
+
+########################################
+#  Rust (Sui core, Move CLI, etc.)     #
+########################################
+/target/              # compiled artifacts
+**/*.rs.bk            # backup files from editors
+
+########################################
+#  Node / front‑end helpers            #
+########################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+########################################
+#  Environment & secrets               #
+########################################
+.env
+.env.*                # .env.local, .env.dev, etc.
+
+########################################
+#  IDE / editor cruft                  #
+########################################
+.idea/
+.vscode/
+*.sw?
+*~                     # vim/emacs backups
+*.swp
+*.swo
+
+########################################
+#  OS‑specific noise                   #
+########################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+########################################
+#  Testing & coverage                  #
+########################################
+coverage/
+*.lcov
+
+########################################
+#  Misc binaries & generated docs      #
+########################################
+*.log
+*.out
+*.dylib
+*.so
+*.dll
+/doc/
