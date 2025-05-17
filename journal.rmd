@@ -1,8 +1,0 @@
-# Arnav Nikam Sui Weekly Challenge Dev Journal
-
-## Challenge 0
-1. Being a part of the workshop was really helpful to ensure everything was downloaded correctly
-2. I'm using WSL on VSCode, so everything is pretty much setup
-3. Had setup a client in the past so this wasn't too bad
-4. Tried using sui client faucet command, but ended up not working, went to web faucet instead:https://faucet.sui.io/. Everything worked fine! 
-5.
